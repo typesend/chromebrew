@@ -2,6 +2,7 @@ require 'package'
 
 class Elixir < Package
   version '1.4.4'
+  depends_on 'perl'
   depends_on 'erlang'
 
   source_url 'https://github.com/elixir-lang/elixir/archive/v1.4.4.tar.gz'
