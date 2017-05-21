@@ -6,6 +6,7 @@ class Erlang < Package
   source_sha1 'f5188ba6f496b9d1c37597705d095b4e6aa7bcd3'
   
   depends_on 'perl'
+  depends_on 'openssl'
 
   def self.build
     system 'export ERL_OTP=`pwd`'
