@@ -1,11 +1,11 @@
 require 'package'
 
 class Elixir < Package
-  version '1.3.1'
+  version '1.4.4'
   depends_on 'erlang'
 
-  source_url 'https://github.com/elixir-lang/elixir/archive/v1.3.1.tar.gz'
-  source_sha1 '29dc1b4da5e051ad71ad84b6886d7c184e4b9add'
+  source_url 'https://github.com/elixir-lang/elixir/archive/v1.4.4.tar.gz'
+  source_sha1 '867da6f876c48279823a41a33030c95ef37379b2'
 
   def self.build
     system 'make clean test'
