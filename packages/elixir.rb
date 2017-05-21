@@ -4,7 +4,7 @@ class Elixir < Package
   version '1.4.4'
   depends_on 'erlang'
 
-  source_url 'https://github.com/elixir-lang/elixir/archive/v1.4.4.tar.gz'
+  source_url 'https://github.com/elixir-lang/elixir/archive/elixir-1.4.4.tar.gz'
   source_sha1 'cc2f673b374bbd51ebd4f8cfaaa83728cc63829f'
 
   def self.build
